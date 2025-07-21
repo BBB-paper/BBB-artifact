@@ -1,0 +1,96 @@
+count    6.500000e+01
+mean     2.119795e+09
+std      7.570513e+07
+min      1.966055e+09
+25%      2.056551e+09
+50%      2.104359e+09
+75%      2.186329e+09
+max      2.254690e+09
+Name: execs_done, dtype: float64
+CV: 3.5713422597936564, QCD (Quartile Coefficient of Dispersion): 3.058728533906375 %
+
+
+Normality of Class 2 experiments...
+Statistic: 0.9544959358499039, p-value: 0.017847480563018225
+NOT follow a normal distribution (reject H0).
+
+
+count    1.000000e+02
+mean     5.651768e+08
+std      1.010142e+07
+min      5.360766e+08
+25%      5.584295e+08
+50%      5.644774e+08
+75%      5.723569e+08
+max      5.871419e+08
+Name: execs_done, dtype: float64
+CV: 1.7873031528265988,QCD (Quartile Coefficient of Dispersion): 1.2316539844579781 %
+
+
+
+Normality of Class 1 experiments...
+Statistic: 0.9902151420565415, p-value: 0.681992660427839
+may follow a normal distribution (fail to reject H0).
+
+
+
+===> bloaty_fuzz_target distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> curl_curl_fuzzer_http distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> freetype2_ftfuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> harfbuzz_hb-shape-fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> jsoncpp_jsoncpp_fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> lcms_cms_transform_fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> libjpeg-turbo_libjpeg_turbo_fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+libpcap_fuzz_both distributions in class 3 and class 4 experiments MAY are statistically equal (fail to reject H0).
+===> libpng_libpng_read_fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> libxml2_xml distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> libxslt_xpath distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> mbedtls_fuzz_dtlsclient distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> openssl_x509 distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+openthread_ot-ip6-send-fuzzer distributions in class 3 and class 4 experiments MAY are statistically equal (fail to reject H0).
+===> proj4_proj_crs_to_crs_fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> re2_fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> sqlite3_ossfuzz distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> systemd_fuzz-link-parser distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> vorbis_decode_fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> woff2_convert_woff2ttf_fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+===> zlib_zlib_uncompress_fuzzer distributions in class 3 and class 4 experiments ARE statistically different (reject H0).
+
+
+
+0 - 1 may be statistically equal
+0 - 2 may be statistically equal
+0 - 3 may be statistically equal
+1 - 1 may be statistically equal
+1 - 2 may be statistically equal
+2 - 1 may be statistically equal
+
+
+
+Stable target with minimum difference statistical detectable: openssl_x509, percentage: 3.468102435967766%
+Unstable target with minimum difference statistical detectable: harfbuzz_hb-shape-fuzzer, percentage: 5.947021015628574%
+Percentage for LCMS: 53.535107018444 %
+Percentage for NULL target remote: 4.2546823698986 %
+Percentage for NULL target local: 2.133300123842715 %
+bloaty_fuzz_target: Green: 60.0 %, Yellow: 27.27272727272727 %, Red: 12.727272727272727 %
+curl_curl_fuzzer_http: Green: 81.81818181818183 %, Yellow: 9.090909090909092 %, Red: 9.090909090909092 %
+freetype2-2017: Green: 74.54545454545455 %, Yellow: 16.363636363636363 %, Red: 9.090909090909092 %
+harfbuzz-1.3.2: Green: 34.54545454545455 %, Yellow: 47.27272727272727 %, Red: 18.181818181818183 %
+jsoncpp_jsoncpp_fuzzer: Green: 60.0 %, Yellow: 0.0 %, Red: 40.0 %
+lcms-2017-03-21: Green: 60.0 %, Yellow: 20.0 %, Red: 20.0 %
+libjpeg-turbo-07-2017: Green: 25.454545454545453 %, Yellow: 54.54545454545454 %, Red: 20.0 %
+libpcap_fuzz_both: Green: 70.9090909090909 %, Yellow: 18.181818181818183 %, Red: 10.909090909090908 %
+libpng-1.2.56: Green: 87.27272727272727 %, Yellow: 9.090909090909092 %, Red: 3.6363636363636362 %
+libxml2-v2.9.2: Green: 69.0909090909091 %, Yellow: 21.818181818181817 %, Red: 9.090909090909092 %
+libxslt_xpath: Green: 69.0909090909091 %, Yellow: 25.454545454545453 %, Red: 5.454545454545454 %
+mbedtls_fuzz_dtlsclient: Green: 3.6363636363636362 %, Yellow: 69.0909090909091 %, Red: 27.27272727272727 %
+openssl_x509: Green: 45.45454545454545 %, Yellow: 43.63636363636363 %, Red: 10.909090909090908 %
+openthread-2019-12-23: Green: 58.18181818181818 %, Yellow: 29.09090909090909 %, Red: 12.727272727272727 %
+php_php-fuzz-parser: Green: 60.0 %, Yellow: 34.54545454545455 %, Red: 5.454545454545454 %
+proj4-2017-08-14: Green: 69.0909090909091 %, Yellow: 21.818181818181817 %, Red: 9.090909090909092 %
+re2-2014-12-09: Green: 7.2727272727272725 %, Yellow: 67.27272727272727 %, Red: 25.454545454545453 %
+sqlite3_ossfuzz: Green: 78.18181818181819 %, Yellow: 16.363636363636363 %, Red: 5.454545454545454 %
+vorbis-2017-12-11: Green: 40.0 %, Yellow: 36.36363636363637 %, Red: 23.636363636363637 %
+woff2-2016-05-06: Green: 54.54545454545454 %, Yellow: 23.636363636363637 %, Red: 21.818181818181817 %
+zlib_zlib_uncompress_fuzzer: Green: 38.18181818181819 %, Yellow: 30.909090909090907 %, Red: 30.909090909090907 %
+Green: 54.63203463203463 %, Yellow: 29.61038961038961 %, Red: 15.757575757575756 %, Fuzzers with at least a couple of fuzzer non distinguishable: 21, Fuzzers with at least a couple of interfamilies fuzzer non distinguishable: 18
